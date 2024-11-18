@@ -1,0 +1,49 @@
+.diagnostico {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--green-200);
+    height: 89px;
+    margin: 0 15px 15px 15px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.diagnostico strong {
+    display: flex;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.1875rem;
+    margin-bottom: 5px;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.dado {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dado span {
+    display: flex;
+    color: var(--gray-300);
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.dado strong {
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.dado p {
+    color: var(--blue);
+    font-weight: 800;
+    font-size: 1.1875rem;
+    margin-top: -2px;
+}

@@ -1,0 +1,45 @@
+.sidebar {
+    background: var(--blue);
+    width: 300px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 0.75rem;
+    margin: 15px 0 60px 0;
+    color: var(--white);
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.sidebar footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 0.9rem;
+    color: var(--blue);
+    border-radius: 10px;
+    width: 171px;
+    height: 32px;
+    border-style: none;
+    margin-bottom: 10px;
+    background: var(--white);
+    cursor: pointer;
+    text-decoration: none;
+}

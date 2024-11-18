@@ -1,0 +1,71 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    width: 100%;
+}
+
+.dados_pessoais {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.dados_pessoais span {
+   color: var(--blue);
+   font-weight: 800;
+   font-size: 1.5rem;
+   margin-bottom: 20px;
+}
+
+hr {
+    width: 98%; 
+    margin: auto; 
+    border: 1px solid var(--black); 
+}
+
+
+.dados_pessoais p {
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 1rem;
+ }
+
+.dados_pessoais strong {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1rem;
+ }
+
+ .resultados {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--green-200);
+}
+
+.resultado {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.resultado strong {
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.resultado span {
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
