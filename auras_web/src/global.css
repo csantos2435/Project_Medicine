@@ -1,0 +1,27 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --blue: #0B8FAC;
+
+    --gray-100: #B1B1B1;
+    --gray-200: #C0C0C0;
+    --gray-300: #858585;
+
+    --green-100: #7BC1B7;
+    --green-200:  #D2EBE7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--white);
+    color: var(--gray-200);
+    -webkit-font-smothing: antialiased;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+}
