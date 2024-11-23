@@ -5,12 +5,14 @@ class SucessoScreen extends StatelessWidget {
   final String cpf;
   final String dataLancamento;
   final String diagnostico;
+  final String sintomasSelecionados;
 
   SucessoScreen({
     required this.nome,
     required this.cpf,
     required this.dataLancamento,
     required this.diagnostico,
+    required this.sintomasSelecionados
   });
 
   @override
@@ -47,6 +49,8 @@ class SucessoScreen extends StatelessWidget {
               _buildFieldWithLine('Data de Lançamento', dataLancamento),
               SizedBox(height: 10),
               _buildFieldWithLine('Diagnóstico', diagnostico),
+              SizedBox(height: 10),
+              _buildFieldWithLine('Sintomas Selecionados', sintomasSelecionados),
               SizedBox(height: 40),
              ElevatedButton(
                 onPressed: () {
@@ -56,6 +60,7 @@ class SucessoScreen extends StatelessWidget {
                     'cpf': cpf,
                     'dataLancamento': dataLancamento,
                     'diagnostico': diagnostico,
+                    'sintomasSelecionados': sintomasSelecionados,
                   });
                 },
                 style: ElevatedButton.styleFrom(

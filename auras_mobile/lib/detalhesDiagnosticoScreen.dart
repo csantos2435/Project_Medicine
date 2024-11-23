@@ -33,6 +33,10 @@ class DetalhesDiagnosticoScreen extends StatelessWidget {
             // Diagnóstico
             _buildFieldWithLine('Diagnóstico', diagnostico['diagnostico'] ?? 'Sem diagnóstico'),
             SizedBox(height: 40),
+
+            //Selecionados
+             _buildFieldWithLine('Sintomas Selecionados', diagnostico['sintomasSelecionados'] ?? 'Sem Sintomas'),
+            SizedBox(height: 40),
           ],
         ),
       ),

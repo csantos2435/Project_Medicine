@@ -131,3 +131,5 @@ List<String> sintomas = [
     "Ferida Vermelha ao Redor do Nariz",
     "Exsudação de Crosta Amarela",*/
   ];
+
+  

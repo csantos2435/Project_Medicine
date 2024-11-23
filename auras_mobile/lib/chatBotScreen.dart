@@ -53,7 +53,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ChatBot'),
+        title: Text('Chat de ajuda virtual'),
         backgroundColor: Color(0xFF0B8FAC),
       ),
       body: Column(
