@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'cadastroPrevisao.dart';
 import 'detalhesDiagnosticoScreen.dart'; // Importando a tela de detalhes
+import 'chatBotScreen.dart'; // Importando a tela do chatbot
 
 class DashboardScreen extends StatefulWidget {
   @override
@@ -88,7 +89,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       subtitle: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text('Lançamento: ${diagnostico['dataLançamento']}'),
+                          Text('Lançamento: ${diagnostico['dataLancamento']}'),
                           Text('Diagnóstico: ${diagnostico['diagnostico']}'),
                         ],
                       ),
@@ -111,24 +112,47 @@ class _DashboardScreenState extends State<DashboardScreen> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          final result = await Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => CadastroPrevisaoScreen(),
+      floatingActionButton: Stack(
+        children: [
+          Positioned(
+            bottom: 70, // Ajuste a posição acima do botão +
+            right: 1,
+            child: FloatingActionButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ChatBotScreen(),
+                  ),
+                );
+              },
+              backgroundColor: Color(0xFF0B8FAC),
+              child: Icon(Icons.chat, size: 30, color: Colors.white,),
             ),
-          );
+          ),
+          Align(
+            alignment: Alignment.bottomRight,
+            child: FloatingActionButton(
+              onPressed: () async {
+                final result = await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => CadastroPrevisaoScreen(),
+                  ),
+                );
 
-          if (result != null) {
-            setState(() {
-              diagnosticos.add(result);
-              _filterDiagnosticos();
-            });
-          }
-        },
-        backgroundColor: Color(0xFF0B8FAC),
-        child: Icon(Icons.add, size: 40),
+                if (result != null) {
+                  setState(() {
+                    diagnosticos.add(result);
+                    _filterDiagnosticos();
+                  });
+                }
+              },
+              backgroundColor: Color(0xFF0B8FAC),
+              child: Icon(Icons.add, size: 40, color: Colors.white,),
+            ),
+          ),
+        ],
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
     );
