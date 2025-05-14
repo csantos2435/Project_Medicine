@@ -8,6 +8,7 @@ Essa predição é realizada por um modelo de aprendizado de máquina treinado p
 
 ## 📊 Ciência de Dados Aplicada
 Para treinar o modelo preditivo, utilizamos a base de dados disponibilizada pela comunidade no Kaggle:
+
 📁 Fonte dos Dados: Disease Prediction Using Machine Learning - Kaggle
 
 ## ✅ Informações sobre o Dataset:
