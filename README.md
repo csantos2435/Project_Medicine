@@ -8,8 +8,7 @@ Essa predição é realizada por um modelo de aprendizado de máquina treinado p
 
 ## 📊 Ciência de Dados Aplicada
 Para treinar o modelo preditivo, utilizamos a base de dados disponibilizada pela comunidade no Kaggle:
-
-## 📁 Fonte dos Dados: Disease Prediction Using Machine Learning - Kaggle
+📁 Fonte dos Dados: Disease Prediction Using Machine Learning - Kaggle
 
 ## ✅ Informações sobre o Dataset:
 Nome: Disease Prediction Using Machine Learning
@@ -36,21 +35,21 @@ O desenvolvimento da aplicação abrange tanto o frontend quanto o backend, util
 
 ## 🌐 Frontend:
   ##### • Dart
-  • Flutter
-  • JavaScript
-  • CSS
+  ##### • Flutter
+  ##### • JavaScript
+  ##### • CSS
 
 ## 🖥️ Backend:
-  • Node.js
-  • C++
+  ##### • Node.js
+  ##### • C++
 
 ## 🚀 Funcionalidades Futuras (Roadmap)
-  • 🔄 Aprimoramento contínuo do modelo de machine learning com novos dados
-  • 🌍 Suporte a múltiplos idiomas
-  • 🧾 Histórico de diagnósticos
-  • 🧾 Indicação de Médicos para tratamento da doença diagnosticada.
-  • 🔐 Autenticação de usuários e armazenamento seguro de dados em uma banco não relacional (MongoDB)
-  • 📊 Visualização gráfica dos sintomas mais comuns e doenças previstas
+  ##### • 🔄 Aprimoramento contínuo do modelo de machine learning com novos dados
+  ##### • 🌍 Suporte a múltiplos idiomas
+  ##### • 🧾 Histórico de diagnósticos
+  ##### • 🧾 Indicação de Médicos para tratamento da doença diagnosticada.
+  ##### • 🔐 Autenticação de usuários e armazenamento seguro de dados em uma banco não relacional (MongoDB)
+  ##### • 📊 Visualização gráfica dos sintomas mais comuns e doenças previstas
 
 ## 🤝 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, sugerir melhorias ou enviar pull requests.
