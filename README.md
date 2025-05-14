@@ -1,4 +1,4 @@
-#🩺 Project_Medicine - AURAS
+# 🩺 Project_Medicine - AURAS
 AURAS é um sistema inteligente de predição de doenças, desenvolvido para plataformas mobile e web, com o objetivo de facilitar o diagnóstico preliminar com base nos sintomas informados pelo usuário. O projeto integra tecnologias modernas de desenvolvimento frontend e backend com algoritmos de machine learning, oferecendo uma interface acessível e um motor preditivo robusto.
 
 #🧠 Sobre o Projeto
